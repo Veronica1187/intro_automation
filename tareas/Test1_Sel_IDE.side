@@ -1,0 +1,105 @@
+{
+  "id": "71d3ca35-c791-47ef-a4d2-f28973df7415",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://espanol.yahoo.com",
+  "tests": [{
+    "id": "28cce58f-aead-4c64-8dec-02426ef7c3fe",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b1d090fe-5168-4859-af6a-fbab749ff82d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e33e606-285a-452f-977f-6b326395d66a",
+      "comment": "",
+      "command": "pause",
+      "target": "15000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "911b0201-5a03-48b4-80a3-38028920324d",
+      "comment": "",
+      "command": "type",
+      "target": "id=uh-search-box",
+      "targets": [
+        ["id=uh-search-box", "id"],
+        ["name=p", "name"],
+        ["css=#uh-search-box", "css"],
+        ["xpath=//input[@id='uh-search-box']", "xpath:attributes"],
+        ["xpath=//td[@id='yui_3_18_0_3_1537632004420_566']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "71a32fdc-228f-4a7f-a2c9-fe2c5541c630",
+      "comment": "",
+      "command": "click",
+      "target": "id=uh-search-button",
+      "targets": [
+        ["id=yui_3_18_0_3_1537632004420_580", "id"],
+        ["css=#yui_3_18_0_3_1537632004420_580", "css"],
+        ["xpath=//i[@id='yui_3_18_0_3_1537632004420_580']", "xpath:attributes"],
+        ["xpath=//button[@id='uh-search-button']/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa5424e-ab8b-4860-994d-6453f9ee1494",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium - Web Browser Automation",
+      "targets": [
+        ["id=yui_3_10_0_1_1537632019799_1002", "id"],
+        ["linkText=Selenium - Web Browser Automation", "linkText"],
+        ["css=#yui_3_10_0_1_1537632019799_1002", "css"],
+        ["xpath=//a[@id='yui_3_10_0_1_1537632019799_1002']", "xpath:attributes"],
+        ["xpath=//h3[@id='yui_3_10_0_1_1537632019799_1003']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.seleniumhq.org/')]", "xpath:href"],
+        ["xpath=//li/div/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abcc446b-7f97-4297-8834-e9f1c8eaedc6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "770f22fb-c995-4e39-aa37-f9b6e145022d",
+      "comment": "",
+      "command": "pause",
+      "target": "15000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e4a6b4d-bf08-4df8-82b4-4d65d34a223c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=a[title=\"Get Selenium\"]", "css"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//li[@id='menu_download']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/download/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9fdaf37f-ec76-4609-bfc5-d6f121ad5ece",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28cce58f-aead-4c64-8dec-02426ef7c3fe"]
+  }],
+  "urls": ["https://espanol.yahoo.com/"],
+  "plugins": []
+}
